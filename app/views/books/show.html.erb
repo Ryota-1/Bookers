@@ -1,0 +1,9 @@
+<div class ="books-show-item">
+
+	<p class = "book-title"><strong>Title:</strong><%= @book.title %></p>
+	<p class = "book-body"><strong>Body:</strong><%= @book.body %></p>
+</div>
+
+<%= link_to "Edit", edit_book_path(@book.id) %>
+|
+<a href = "/books">Back</a>
