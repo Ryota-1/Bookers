@@ -29,7 +29,7 @@ tbody{
 	display: table-row-group
 }
 
-.flash {
+#notice {
 	color: green;
 }
 .errormessage {
